@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cargat React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>ReactApp</title>
+
+</head>
+<body>
+
+    <div id="root">
+
+    </div>
+    <div id="root2">
+
+    </div>
+
+    <script type="text/babel">
+
+        const Scrumboys = ['Luis ',' Josias ', ' Pablo ', ' Meme ' ,' Cebo '];
+        const nuevoScrumboy = Scrumboys;
+
+        const divRoot = document.querySelector('#root');
+        const divRoot2 = document.querySelector('#root2');
+
+        const nombre = 'Luis Peraza';
+
+    
+        const h1tag = <h1> Hola soy {nombre} </h1>; // Dentro de las llaves se pude ingresar codigo de javaScript
+
+        nuevoScrumboy.push('Zote');
+        ReactDOM.render(h1tag, divRoot);
+        ReactDOM.render(Scrumboys, divRoot2);
+
+    
+    </script>
+
+    
+</body>
+</html>
