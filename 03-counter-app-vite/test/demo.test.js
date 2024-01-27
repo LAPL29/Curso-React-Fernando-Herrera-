@@ -1,15 +1,14 @@
 
-test('Esta prueba no debe de fallar', ( ) =>{
-    
-    // 1. Inicialización
-    const message1 = 'Hola Mundo';
-    // 2. Estímulo
-    const message2 = message1.trim(); //  se utiliza para eliminar los espacios en blanco
-    // 3. Observar el comportamiento
-    expect(message1).toBe(message2);
+describe('Pruebas En <DemoComponent>', () => {
 
+    test('Esta prueba no debe de fallar', () => {
+
+        // 1. Inicialización
+        const message1 = 'Hola Mundo';
+        // 2. Estímulo
+        const message2 = message1.trim(); //  se utiliza para eliminar los espacios en blanco
+        // 3. Observar el comportamiento
+        expect(message1).toBe(message2);
+
+    })
 })
-
-
-
-

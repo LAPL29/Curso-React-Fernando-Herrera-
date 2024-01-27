@@ -9,5 +9,5 @@
 //     )
 // }
 
-export const HelloWorldApp = () => <h1>Arrow Function</h1>; // Primer componente en react
+export const HelloWorldApp = () => <h1>Hello World</h1>; // Primer componente en react
 
